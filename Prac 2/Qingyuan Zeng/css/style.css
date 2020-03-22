@@ -1,0 +1,124 @@
+
+/*Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+/****Header inmage****/
+.banner-image {
+    background: url(Banner1.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+.banner-text{
+  color: white;
+  font-size: 4em;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+/****Main content****/
+/*Form container*/
+div.form{
+  text-align: center;
+}
+
+form{
+  display: inline-block;
+  max-width: 1200px;
+  text-align: center;
+  width: 80%;
+}
+
+
+/*Block container*/
+fieldset{
+  border: none;
+  border-bottom: 1px solid grey;
+  display: inline-block;
+  padding: 15px 0 25px 0;
+  width: 60%;
+
+  }
+
+h2{
+    font-family: Helvetica Neue;
+    font-size: 2em;
+  }
+
+/*Labels and Inputs styling*/
+label {
+  display: block;
+  font-family: Helvetica Neue;
+  font-size: 17px;
+  font-weight: 900;
+  left: 12.5%;
+  line-height: 1.7;
+  position: relative;
+  text-align: left;
+  vertical-align: bottom;
+
+  }
+input[type="text"], input[type = "date"], input[type="password"]{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  height: 55px;
+  padding: 8px 15px;
+  width: 75%;
+
+  }
+
+input[id="FName"], input[id="LName"],select[id="Countries"], select[id = "States"]{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 55px;
+  margin: 0 16px 0 16px;
+  padding: 8px 10px;
+  width: 35%;
+
+  }
+
+input[type = "submit"]{
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display:block;
+  left: 45%;
+  margin-top: 15px;
+  padding: 8px 15px;
+  position: relative;
+
+  }
+
+input:focus, select:focus{
+    box-shadow: 5px 5px 5px grey;
+    border: 3px solid #4295df;
+  }
